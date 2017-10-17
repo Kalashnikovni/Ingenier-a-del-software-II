@@ -1,0 +1,64 @@
+\nonstopmode
+\documentclass[a4paper, 10pt]{article}
+\usepackage{textcomp}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[nounderscore]{syntax}
+
+\setlength{\grammarindent}{1.5cm}
+
+\author{
+    Marzorati, Denise \\
+}
+
+\date{
+    2017
+}
+
+\title{
+    \Huge \textsc{{\bfseries R}esumen} \\
+    \Huge \textsc{Patrones de diseño} \\
+    \large \textsc{Ingeniería del software} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introducción}
+  El diseño orientado a objetos suele ser difícil, pero es todavía más difícil hacer reusable dicho
+diseño. Un buen diseño tiene que ser lo suficientemente específico como para resolver el problema,
+pero lo suficientemente general como para resolver problemas futuros, y considerar nuevos
+requerimientos.
+
+\subsection*{¿Qué es un patrón de diseño?}
+  Un patrón de diseño de compone de cuatro elementos básicos:
+
+  \begin{itemize}
+    \item {\bfseries Nombre}
+    \item {\bfseries Problema}: describe cuándo aplicar el patrón. Explica el problema y su
+contexto.
+    \item {\bfseries Solución}: describe los elementos que conforman el diseño, sus relaciones,
+responsabilidades y colaboraciones.
+    \item{\bfseries Consecuencias}: son los resultados y las ventajas y desventajas obtenidas por
+aplicar el patrón.
+  \end{itemize}
+
+  Entonces, un patrón de diseño serán descripciones acerca de objetos que se comunican entre sí, y
+clases especialmente diseñados para resolver un problema de diseño general, en un contexto
+particular.
+
+\subsection*{Problemas que resuelven los patrones de diseño}
+
+  \begin{itemize}
+    \item {\bfseries Encontrar objetos apropiados}. Los patrones de diseño ayudan a identificar las
+abstracciones poco explícitas, y los objetos que las capturan.
+    \item{\bfseries Determinar la granularidad de un objeto}.
+    \item{\bfseries Especificar la interfaz de los objetos}.
+  \end{itemize}
+
+\end{document}
